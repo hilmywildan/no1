@@ -24,7 +24,9 @@ public class Naru {
         for (int i=1; i<=c; i++)
             a=b;
             b=hasil;
-            System.out.println(hasil+"");
+            System.out.println(hasil+" ");
+            hasil=hasil+a;
+            System.out.println(hasil+" ");
             hasil=a+b;
     }
     
